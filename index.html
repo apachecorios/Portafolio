@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Antonio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO **VER MAS QUIEN SOY**-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Imagen.jpg" alt="">
+            </div>
+            <h1>Antonio Pacheco Rios</h1>
+            <h2>Front End GIS Developer</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/apachecorios/" target="_blank"><i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.facebook.com/APachecoRios" target="_blank"><i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/APachecoRios" target="_blank"><i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://join.skype.com/invite/dbgUTMKZpdwy"target="_blank"><i class="fa-brands fa-skype" ></i></a>
+                <a href="#"target="_blank"><i class="fa-solid fa-rss" ></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>¡Hola! Soy Antonio.</span>  
+                Graduado en Ingeniería Geofísica con especialización en Peligros y Riesgos Ambientales.
+                Posteriormente, obtuve el grado de Maestro en Ciencias Ambientales en el área de recursos naturales. 
+                Después, me enfoqué en el análisis de datos y me especialicé como analista de datos ambientales a través de Sistemas de Información Geográfica (SIG) y Percepción Remota.
+            </p>
+            <p>
+                A partir de 2023, inicié mi emprendimiento vendiendo chocolates en redes sociales. Desde entonces, he profundizado en Marketing Digital y Comercio Electrónico.
+            </p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                         <!-- <li>
+                            <strong>Cumpleaños</strong>
+                            06-12-1991
+                        </li>-->
+                        <li>
+                            <strong>Teléfono</strong>
+                            +52 2225677544
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            apachecorios@outlook.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.apachecorios.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Puebla, Puebla
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Front End GIS Developer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                 <!-- intereses -->
+                 <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div>
+                        <a href="libros.html" class="interes"> <!-- Aquí enlazamos a una nueva subpágina -->
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </a>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-android"></i>
+                            <span>ANDROID OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOGRAFÍA</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="docs/APR_CV_ENERO-2025.pdf" download="APR_CV_ENERO-2025.pdf">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>            
+        </div>
+    </section>
+
+   <!-- SECCION SKILLS -->
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!-- Technical Skills -->
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>Python & SQL</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 85%;">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>GIS (ArcGIS, QGIS, SAGA, MapInfo)</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 90%;">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Remote Sensing (ENVI, SNAP)</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 80%;">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>AutoCAD</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 70%;">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>R Studio, SPSS, Minitab</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 75%;">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Machine Learning (Regresión, Random Forest)</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 65%;">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Microsoft Office & Google Workspace</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 95%;">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Professional Skills -->
+            <div class="col">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Gestión de Proyectos</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 94%;">
+                            <span>94%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Pensamiento Analítico y Crítico</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 95%;">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 85%;">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Comunicación y Escucha Activa</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 80%;">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Resolución de Problemas</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 90%;">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Investigación Científica (Scopus, Web of Science)</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 88%;">
+                            <span>88%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad e Innovación</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 95%;">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN CURRICULUM -->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Maestría en Ciencias Ambientales</h4>
+                    <span class="casa">Benemérita Universidad Autónoma de Puebla</span>
+                    <span class="fecha">2016 - 2018</span>
+                    <p>Especialización en gestión y conservación de la biodiversidad.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Licenciatura en Ingeniería Geofísica</h4>
+                    <span class="casa">Benemérita Universidad Autónoma de Puebla</span>
+                    <span class="fecha">2009 - 2014</span>
+                    <p>Enfoque en análisis de datos espaciales y geoestadística.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                
+                <h3>Diplomados</h3>
+                <div class="item izq">
+                    <h4>Diplomado en Inteligencia Artificial y sus Aplicaciones</h4>
+                    <span class="casa">Instituto Potosino de Investigación Científica y Tecnológica A.C.</span>
+                    <span class="fecha">2021 - 2022</span>
+                    <p>Modelos de *machine learning* aplicados a la ciencia ambiental.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+
+                <div class="item izq">
+                    <h4>Diplomado en Gestión y Conservación de la Biodiversidad</h4>
+                    <span class="casa">Benemérita Universidad Autónoma de Puebla</span>
+                    <span class="fecha">2016 - 2018</span>
+                    <p>Estrategias de conservación y análisis de ecosistemas.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+
+                <h3>Especialidades</h3>
+                <div class="item izq">
+                    <h4>Especialidad en Operación de Base de Datos</h4>
+                    <span class="casa">Instituto de Capacitación para el Trabajo, San Pedro Cholula</span>
+                    <span class="fecha">2015 - 2016</span>
+                    <p>Gestión y administración de bases de datos con SQL y Python.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <h3>Certificaciones</h3>
+                <h4>Profesional Summary</h4>
+                <p>
+                    Data analytics and business intelligence professional with experience in data integration, processing, and visualization, seeking to apply skills in a Data Analyst role. Proficient in data cleaning, data processing, and creating insightful dashboards, with a strong foundation in project management and agile methodologies. Recently earned the Google Business Intelligence and Advanced Data Analytics Professional Certificates, focusing on data retrieval, organization, analysis, and stakeholder-ready visualizations. Dedicated to continuous learning and eager to contribute to data-driven strategies that enhance decision-making and operational efficiency.
+                </p>
+                <div class="item izq">
+                    <h4>Diseño UX</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">2024 - 2025</span>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Project Management</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">2024</span>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>IT Automation with Python</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">2024</span>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Google Business Intelligence Certificate</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">Nov 2023 - Dic 2023 | Online</span>
+                    <p>Completed extensive job-ready training with hands-on experience in BI tools including Google DataFlow and Tableau. Skilled in ETL processes, data modeling, dashboard creation, and communicating data insights to stakeholders. Strong foundation in programming and database systems.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Advanced Data Analytics Certificate</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">Nov 2023 - Dic 2023 | Online</span>
+                    <p>Job-ready training in advanced data science practices including Python programming, Tableau, exploratory data analysis, statistical techniques, regression analysis, and machine learning fundamentals.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Cybersecurity</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">2023</span>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Soporte de Tecnologías de la Información</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">2023</span>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Marketing Digital & E-Commerce Certificate</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">Jul 2023 - Sep 2023 | Online</span>
+                    <p>Hands-on experience with digital marketing tools such as Google Ads, Google Analytics, HubSpot, Mailchimp, Shopify, and Hootsuite. Developed and analyzed campaigns, created visualizations and reports for stakeholders using spreadsheets and presentations.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Data Analytics Professional Certificate</h4>
+                    <span class="casa">Google</span>
+                    <span class="fecha">Jun 2023 - Jul 2023 | Online</span>
+                    <p>Training focused on data cleaning, analysis, and visualization with SQL, R, spreadsheets, and Tableau. Experienced in dashboard development and effectively presenting insights to stakeholders.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col derecha">
+                <h3>Proyectos</h3>
+                <div class="item der">
+                    <h4>Modelos de evaluación de servicios ecosistemicos en sistemas agrícolas del trópico del Tabasco</h4>
+                    <span class="casa">Colegio de Posgraduados</span>
+                    <span class="fecha">Enero 2023 - Diciembre 2023</span>
+                    <p>Gestione un estudio de modelación ambiental para apoyar la planificación territorial y la agricultura sustentable. Integré, limpié y estructuré una base de datos con más de 1,000 perfiles de suelo para facilitar su análisis y visualización. Apliqué técnicas de estadística descriptiva y exploratoria en R y Python, estimando propiedades faltantes mediante modelos de machine learning (regresión, random forest). Utilicé herramientas como Excel, ArcGIS y Google Earth Engine para visualizar tendencias, generar mapas predictivos y apoyar la toma de decisiones sobre el uso de suelo. El proyecto culminó en un conjunto de recomendaciones prácticas para el manejo sostenible del territorio.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                </div>
+            </div>
+                <div class="item der">
+                    <h4>Modelos de evaluación de servicios ecosistemicos en sistemas agrícolas del trópico del Tabasco</h4>
+                    <span class="casa">Colegio de Posgraduados</span>
+                    <span class="fecha">Agosto 2020 - Enero 2024</span>
+                    <p>Gestione un estudio de modelación ambiental para apoyar la planificación territorial y la agricultura sustentable. Diseñe e implementé el muestreo y las visitas de campo para describír perfiles de suelo integrando observaciones morfológicas. Realicé análisis de laboratorio conforme a la NOM-021-SEMARNAT-2000. Clasifiqué los suelos según los criterios de la WRB (2022). Integré, limpié y depuré una base de datos de perfiles de suelo con sus propiedades físicas y químicas, aplicando técnicas de análisis estadístico y exploratorio de datos.
+                        Generé cartografía temática utilizando Sistemas de Información Geográfica (SIG), delimitando unidades edáficas con base en rasgos del paisaje como altitud, pendiente, aspecto, curvas de nivel y el Índice Topográfico de Humedad (TWI). Integré imágenes satelitales Sentinel (NDVI, SAVI, NDWI y bandas espectrales específicas) para discriminar coberturas de suelo y vegetación. Elaboré perfiles longitudinales en AutoCAD, representando unidades de suelo, litología y cobertura vegetal, y mapas temáticos en AutoCAD Map 3D, integrando capas vectoriales y ráster.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                </div>
+                <div class="item der">
+                    <h4>Las propiedades magnéticas de los suelos y sus aplicaciones: contaminación, clasificación y uso del fuego en agricultura</h4>
+                    <span class="casa">Centro de Investigacion en Geografía Ambiental (CIGA-UNAM), Morelia, Michoacan, México</span>
+                    <span class="fecha">Junio 2020 - Julio 2020</span>
+                    <p>Participé en un estudio de modelación ambiental orientado a la evaluación de la contaminación por polvos urbanos en la Ciudad de México. Integré, limpié y depuré una base de datos de suelos urbanos con variables físicas y químicas clave. Apliqué análisis estadísticos exploratorios y descriptivos en R y Excel, y desarrollé modelos predictivos en R Studio para estimar propiedades edáficas faltantes (carbono orgánico, contenido de arcilla, CIC) mediante técnicas de minería de datos.
+                        Calculé el índice de sorción de metales pesados y lo espacialicé mediante ArcGIS y QGIS, incorporando análisis geoestadístico.
+                        Elaboré cartografía temática con la distribución espacial del índice, facilitando la interpretación de zonas con alta capacidad de retención de contaminantes.
+                        Como resultado, el estudio generó recomendaciones técnicas para el manejo sustentable del suelo urbano en la CDMX, fortaleciendo estrategias de mitigación de la contaminación.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                </div>
+                <div class="item der">
+                    <h4>Proyecto Sustantable Ganadero</h4>
+                    <span class="casa">Benemerita Universidad Autonoma de Puebla, Instituto de Ciencias (ICUAP)</span>
+                    <span class="fecha">Agosto 2018 - Diciembre 2019</span>
+                    <p>Colaboré en un proyecto de evaluación de la sostenibilidad en ranchos dedicados a la ganadería de toros de lidia. Diseñé e implementé estrategias de muestreo y recorridos de campo para la descripción detallada de perfiles de suelo, integrando observaciones morfológicas y características del entorno.
+                        Realicé análisis físicos y químicos de suelos en laboratorio conforme a los lineamientos establecidos por la NOM-021-SEMARNAT-2000. Clasifiqué los perfiles edáficos de acuerdo con la WRB (2015).
+                        Generé cartografía temática sobre la distribución espacial de las unidades de suelo mediante Sistemas de Información Geográfica (SIG), utilizando variables del paisaje como altitud, pendiente, aspecto y curvas de nivel para la delimitación edáfica.
+                        Diseñé recomendaciones técnicas para el uso y manejo sustentable del suelo con enfoque en la actividad ganadera, promoviendo prácticas agroecológicas adaptadas a las condiciones ecológicas locales.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                </div>
+                <div class="item der">
+                    <h4>Carbono orgánico del suelo bajo diferentes condiciones forestales, bienes comunales San Juan Cuauhtémoc</h4>
+                    <span class="casa">Benemérita Universidad Autónoma de Puebla y DICA</span>
+                    <span class="fecha">Enero 2018 - Julio 2018</span>
+                    <p>Participé en un proyecto de evaluación del carbono orgánico en distintos rodales forestales del Parque Nacional Iztaccíhuatl-Popocatépetl, orientado a la implementación de esquemas de pago por servicios ambientales (PSA) y bonos de carbono. Diseñé e implementé el muestreo edafológico, describiendo perfiles de suelo en campo y realizando análisis físicos y químicos en laboratorio, conforme a la NOM-021-SEMARNAT-2000. Clasifiqué los suelos con base en los criterios de la WRB (2015). Integré la información generada en campo y laboratorio, y la espacialicé utilizando Sistemas de Información Geográfica (SIG). Apliqué técnicas de análisis geoestadístico para modelar espacialmente el carbono orgánico y otros servicios ambientales. Elaboré cartografía temática de alta resolución que permitió identificar zonas prioritarias para conservación y apoyar el diseño de estrategias de manejo forestal sostenible, con enfoque en la mitigación del cambio climático.</p>                        
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Estudio Geoeléctrico para Identificar Suelos Contaminados por Hidrocarburos</h4>
+                    <span class="casa">Acatzingo, Puebla</span>
+                    <span class="fecha">Técnico de campo, laboratorio y gabinete</span>
+                    <p>Participé en la caracterización geofísica de un sitio contaminado con hidrocarburos. Realicé tomografías eléctricas utilizando un equipo SARIS (Scintrex) y colaboré en el procesamiento, análisis e interpretación de los datos con los softwares RES2DMOD y RES2DINV. El estudio generó un modelo geofísico-geológico que permitió evaluar el grado de contaminación, delimitar zonas afectadas y planificar medidas de remediación ambiental.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Estudio Geoeléctrico para Identificar Suelos Contaminados por Hidrocarburos</h4>
+                    <span class="casa">Otumba, Estado de México</span>
+                    <span class="fecha">Técnico de campo, laboratorio y gabinete</span>
+                    <p>Colaboré en la caracterización geofísica de un sitio contaminado con hidrocarburos para identificar zonas de contaminación en el subsuelo. Realicé tomografías eléctricas con un equipo SARIS (Scintrex) y participé en el procesamiento, análisis e interpretación de datos utilizando los softwares RES2DMOD y RES2DINV. El estudio generó un modelo geofísico-geológico que permitió dimensionar la magnitud de la contaminación e identificar áreas contaminadas para orientar estrategias de remediación ambiental.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Estudio Geoeléctrico para la Determinación de un Acuífero</h4>
+                    <span class="casa">San Salvador el Verde, Puebla</span>
+                    <span class="fecha">Técnico de campo y gabinete</span>
+                    <p>Participé en un estudio para ubicar un acuífero subterráneo en una zona con potencial hídrico. Realicé sondeos eléctricos verticales (SEV) utilizando un equipo SARIS (Scintrex), y colaboré en el procesamiento e interpretación de datos con el software IPI2WIN. El estudio generó un modelo geofísico-geológico que orientó estrategias para la perforación de pozos.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Estudio Geoeléctrico Para La Determinación De Un Acuífero</h4>
+                    <span class="casa">Paso del Macho, Veracruz</span>
+                    <span class="fecha">Técnico de campo y gabinete</span>
+                    <p>Colaboré en un estudio orientado a identificar un acuífero subterráneo en una región de interés hidrogeológico. Realicé Sondeos eléctricos verticales (SEV) con un equipo SARIS (Scintrex), y colaboré en el procesamiento e interpretación de datos mediante software especializado como IPI2WIN. El estudio generó un modelo geofísico-geológico que identificó la profundidad de perforación de pozos para captación de agua subterránea.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                
+                <div class="item der">
+                    <h4>Estudio Geoeléctrico para la detección y ubicación precisa de tuberías subterráneas y zonas con asentamientos diferenciales</h4>
+                    <span class="casa">Paseo Bravo, Puebla, Puebla, México</span>
+                    <span class="fecha">Técnico de campo y gabinete</span>
+                    <p>Colaboré en un estudio geofísico como parte del diagnóstico previo a las obras de renovación urbana del Paseo Bravo. Realicé SEV y tomografías eléctricas con un equipo SARIS (Scintrex), sísmica de refracción, reflexión y análisis de microtremores con un sismógrafo Geode (Geometrics) y Georradar. Procesé datos con IPI2WIN, RES2DMOD, RES2DINV, PRISM y SeisImager. Integré resultados en SIG, Surfer (2D) y Voxler (3D) para generar un modelo geofísico-geológico que identificó redes subterráneas y zonas de riesgo estructural.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                
+                <div class="item der">
+                    <h4>Estudio Geofísico para Diseño de Cimentación de Puente</h4>
+                    <span class="casa">Presa de Valsequillo, Puebla</span>
+                    <span class="fecha">Técnico de campo</span>
+                    <p>Participé en un estudio de caracterización geofísica y geológica en Los Ángeles Tetela y San Baltazar Tetela. Realicé SEV y tomografías eléctricas con equipo SARIS (Scintrex), y sísmica de refracción y reflexión con sismógrafo Geode (Geometrics). Colaboré en el procesamiento e interpretación de los datos. El modelo geofísico-geológico sirvió para orientar las estrategias de diseño de cimentación del puente.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Estudio Geofísico para Evaluación del Riesgo por Deslizamiento</h4>
+                    <span class="casa">Ixtepec, Puebla</span>
+                    <span class="fecha">Técnico de campo</span>
+                    <p>Colaboré en un estudio para analizar un deslizamiento activo en Ixtepec, Puebla, con el fin de identificar zonas de debilidad estructural. Realicé SEV y tomografías eléctricas (SARIS - Scintrex), y sísmica de refracción (Geode - Geometrics). Participé en el procesamiento e interpretación de datos eléctricos y sísmicos. El modelo geofísico-geológico permitió delimitar zonas inestables para la planificación de obras de mitigación.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>Especialista de Información Geográfica</h4>
+                    <span class="casa">Yakult de Puebla S.A. de C.V.</span>
+                    <span class="fecha">Junio 2024 - Enero 2025</span>
+                    <p>Colaboré en la optimización de la estrategia comercial de Yakult mediante análisis geoespacial de la distribución de productos.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Cartógrafo</h4>
+                    <span class="casa">Instituto Nacional de Estadística y Geografía</span>
+                    <span class="fecha">Enero 2024 - Junio 2024</span>
+                    <p>Durante el Censo Económico 2024, aseguré la calidad de los datos recolectados en campo para su posterior análisis y publicación. Verifiqué la información capturada, identifiqué y corregí inconsistencias, y brindé orientación a los entrevistadores durante el proceso de levantamiento.
+                        Además, digitalicé información geográfica utilizando ArcGIS y QGIS, integrándola con los datos de campo para fortalecer la precisión del marco geoestadístico. Estas acciones mejoraron la calidad y eficiencia en la captura y procesamiento de datos en mi zona asignada, reduciendo significativamente los errores y contribuyendo a la solidez del marco geoestadístico 2024.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                </div>
+                <div class="item der">
+                    <h4>Técnico Cartógrafo</h4>
+                    <span class="casa">Instituto Nacional de Estadística y Geografía</span>
+                    <span class="fecha">Noviembre 2019 - Abril 2020</span>
+                    <p>Durante el Censo de Población y Vivienda 2020, garanticé la consistencia de los datos geoespaciales recolectados en campo para su posterior análisis y publicación. Revisé y depuré el material recolectado por los entrevistadores para garantizar su consistencia y facilitar su posterior procesamiento. Brindé orientación a entrevistadores durante la captura de la información. Utilicé ArcGIS y QGIS para digitalizar polígonos de manzanas con base en recorridos de campo e imágenes satelitales, asegurando que la cartografía se ajustará a los lineamientos técnicos establecidos y contribuyendo a una representación espacial precisa y actualizada. Contribuí a mejorar la calidad y precisión de la información estadística capturada en mi zona asignada, reduciendo significativamente los errores en la etapa de captura y fortaleciendo la precisión del marco geoestadístico 2020.<p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                </div>
+                <div class="item der">
+                    <h4>Analista de Datos Ambientales</h4>
+                    <span class="casa">Colegio de Posgraduados</span>
+                    <span class="fecha">Enero 2023 - Diciembre 2023</span>
+                    <p>Gestioné la adquisición, integración, limpieza y depuración de datos ambientales, realicé análisis estadísticos exploratorios y descriptivos en R y Python, y estimé propiedades faltantes con métodos de machine learning. Generé cartografía y elaboré el reporte final.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Analista Cartográfico</h4>
+                    <span class="casa">Consultoría y Soluciones en Negocios Holley S.C.</span>
+                    <span class="fecha">Septiembre 2015 - Febrero 2016</span>
+                    <p>Utilicé herramientas SIG para procesar datos geoespaciales, cotejé información catastral, y digitalicé datos geográficos.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Censor</h4>
+                    <span class="casa">Instituto Nacional de Estadística y Geografía</span>
+                    <span class="fecha">Febrero 2015 - Abril 2015</span>
+                    <p>Identifiqué las viviendas y localicé a los informantes adecuados. Realicé entrevistas siguiendo procedimientos detallados, aseguré la congruencia de los datos y llené formularios con precisión. Apliqué técnicas de entrevista para garantizar la calidad de los datos y utilicé habilidades de comunicación persuasiva para asegurar la cooperación de los informantes.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der"> 
+                    <h4>Encuestador</h4>
+                    <span class="casa">Centro de Investigación de Opinión Pública (CISO-BUAP)</span>
+                    <span class="fecha">Junio 2014 - Diciembre 2014</span>
+                    <p>Diseñé, apliqué y validé encuestas para estudios de percepción ciudadana a nivel municipal y estatal. Capturé datos garantizando su calidad y consistencia. Colaboré en equipos multidisciplinarios y apliqué técnicas de entrevista en campo, contribuyendo a diagnósticos sociales respaldados estadísticamente para el diseño de políticas públicas.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Geofísico Jr.</h4>
+                    <span class="casa">Peligros y Riesgos Geológicos S.A. de C.V.</span>
+                    <span class="fecha">Enero 2014 - Diciembre 2014</span>
+                    <p>Participé en estudios aplicados de geofísica ambiental, contribuyendo al monitoreo y evaluación de riesgos geológicos. Realicé sondeos eléctricos verticales (SEV), tomografías eléctricas, sísmica de refracción, reflexión y análisis de microtremores, operando equipos geofísicos y garantizando la obtención de datos de alta calidad y consistencia. Colaboré en el procesamiento, análisis e interpretación de datos mediante software especializado como PI2WIN, RES2DMOD, RES2DINV (resistividad eléctrica), PRISM (radargramas) y SeisImager (sísmica de refracción, microtremores, MASW). Generé cartografía temática utilizando SIG y Percepción Remota, delimitando unidades con base en rasgos del paisaje (altitud, pendiente, aspecto, curvas de nivel). Elaboré perfiles longitudinales y mapas temáticos en AutoCAD y AutoCAD Map 3D, integrando capas vectoriales y ráster, y utilicé Surfer y Voxler para visualización 3D, mejorando la precisión de los modelos. Como resultado, se generaron modelos geofísicos integrales que sirvieron como base técnica para la toma de decisiones en proyectos de gestión ambiental y prevención de riesgos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                </div>
+                <div class="item der">
+                    <h4>Residente de Obra</h4>
+                    <span class="casa">Terracerías y Excavaciones Acción S.A. de C.V.</span>
+                    <span class="fecha">Julio 2013 - Diciembre 2013</span>
+                    <p>Participé en un proyecto de obras de terracerías y excavaciones cordinando las actividades de construcción y supervisando los frentes de obra para asegurar que se cumplieran los estándares de calidad, seguridad y tiempo establecidos. Gestioné la mano de obra y los materiales, asegurando su uso eficiente y evitando desviaciones presupuestales o desperdicios. Elaboré reportes de avance de obra y trabajé estrechamente con ingenieros, topógrafos y personal operativo para garantizar la correcta ejecución de las actividades. Logré la ejecución eficiente del proyecto dentro de los plazos establecidos, cumpliendo con los estándares de calidad y presupuesto.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>          
+</section>
+ 
+<!-- SECCION PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+
+        <!-- PORTAFOLIO APPRIOS -->
+        <h3>APPRIOS</h3>
+        <div id="apprios" class="galeria">
+            <div class="proyecto">
+                <img src="img/Sin título-1.png" alt="APPRIOS - Proyecto 1">
+                <div class="overlay">
+                    <h4>Gestión de Proyectos</h4>
+                    <p>Desarrollo de Estrategias</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Sin título-2.png" alt="APPRIOS - Proyecto 2">
+                <div class="overlay">
+                    <h4>Desarrollo Web</h4>
+                    <p>Plataformas Interactivas</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Sin título-3.png" alt="APPRIOS - Proyecto 3">
+                <div class="overlay">
+                    <h4>Marketing Digital</h4>
+                    <p>Campañas Online</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Sin título-4.png" alt="APPRIOS - Proyecto 4">
+                <div class="overlay">
+                    <h4>Análisis de Datos</h4>
+                    <p>Business Intelligence</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PORTAFOLIO LESDE -->
+        <h3>LESDE</h3>
+        <div id="lesde" class="galeria">
+            
+            <div class="proyecto">
+                <img src="img/Sin título-5.png" alt="LESDE - Proyecto 1">
+                <div class="overlay">
+                    <h4>Mapas Digitales Web</h4>
+                    <p>Cartografía Interactiva</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Sin título-6.png" alt="LESDE - Proyecto 2">
+                <div class="overlay">
+                    <h4>Evaluación de Tierras</h4>
+                    <p>Análisis Geoespacial</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Sin título-7.png" alt="LESDE - Proyecto 3">
+                <div class="overlay">
+                    <h4>Análisis de Laboratorios</h4>
+                    <p>Estudio de Muestras</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PORTAFOLIO SEVIOA -->
+        <h3>SEVIOA</h3>
+        <div id="sevioa" class="galeria">
+            <div class="proyecto">
+                <img src="img/Sin título-5.png" alt="SEVIOA - Chocolate">
+                <div class="overlay">
+                    <h4>Chocolate Artesanal</h4>
+                    <p>Producto Orgánico</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Sin título-6.png" alt="SEVIOA - Mezcal">
+                <div class="overlay">
+                    <h4>Mezcal Gourmet</h4>
+                    <p>Elaborado Tradicionalmente</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/Sin título-7.png" alt="SEVIOA - Mole">
+                <div class="overlay">
+                    <h4>Mole Casero</h4>
+                    <p>Ingredientes Orgánicos</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Puebla, Puebla
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2225677544
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: apachecorios@outlook.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
